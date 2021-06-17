@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio: Glyn Atherton</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!--<link href="https://fonts.googleapis.com/css2?family=Teko:wght@400;500;700&display=swap" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <script src="https://kit.fontawesome.com/e774fbe93e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- Header -->
+
+<header>
+    <a href="index.html"> <h1>Portfolio: Glyn Atherton</h1></a>
+    <nav class="flex">
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Main Section -->
+
+<main>
+
+    <!-- Top Section -->
+
+<section class="container" id="about">
+    <img src="resources/images/Glyn Atherton 2006.jpg">
+    <article>
+        <h2>About Me</h2>
+        <p>
+            Following many years working in IT as a UNIX systems administrator,
+            I wanted to do something more interesting and enjoyable.
+        </p>
+        <p>
+            I trained and qualified as a drone pilot and started a side business
+            providing aerial photography and videography. Fot this I decided to
+            build my own website. I studied some Pluralsight courses to develop
+            my skills with HTML, CSS and JavaScript.
+        </p>
+        <p>
+            I thoroughly enjoyed the process of building my own website and so
+            I decided to study hard to pursue a different career path doing 
+            something I believe I will really enjoy and be good at.
+        </p>
+        <p>
+            I invested in some more in depth courses with Codecademy and further
+            developed my HTML, CSS and JavaScript skills along with Python, PHP,
+            SQL, Java and C#. With my background of UNIX and Linux, I am well
+            equipped for a new career as a Full Stack Developer.
+        </p>   
+    </article>
+</section>
+
+    <!-- Middle Section -->
+
+<section class="container" id="skills">
+    <h2>Skills</h2> 
+    <div id="skills-container">
+        <i class="fab fa-html5"></i>
+        <i class="fab fa-css3-alt"></i>
+        <i class="fab fa-js"></i>
+        <i class="fab fa-react"></i>
+        <!--<i class="fab fa-aws"></i>
+        <i class="fab fa-sketch"></i>
+        <i class="fab fa-figma"></i>
+        <i class="fab fa-chrome"></i>
+        <i class="fas fa-terminal"></i>
+        <i class="fas fa-universal-access"></i>
+        <i class="fab fa-npm"></i>-->
+        <i class="fab fa-node"></i>
+        <i class="fab fa-python"></i>
+        <i class="fab fa-java"></i>
+        <i class="fab fa-php"></i>
+        <i class="fab fa-git"></i>
+        <i class="fab fa-github"></i>
+    </div>
+    <br>
+</section>
+    
+    <!-- Bottom Section -->
+
+<section class="container" id="projects">
+    <h2>Projects</h2>  
+</section>
+
+<section class="flex" id="projectsList">
+    <article>
+        <a href="http://agilevisuals.co.uk/"
+        target="_blank">
+        <img src="resources/images/AgileVisuals.png" 
+             class="projectImage" 
+             alt="screenshot of project 1"
+             id="project1Image"
+             onmouseover="imageEnlarge('project1Image');"
+             onmouseout="imageReset('project1Image');">
+        <h3>Agile Visuals</h3>
+        <p>
+            Website for aerial photography and videography business.
+        </p>
+        </a>
+    </article>
+    <article>
+        <a href="https://glynatherton.github.io/GlynAtherton.github.io-HibiscusKitesurfing/"
+        target="_blank">
+        <img src="resources/images/HibiscusKitesurfing.png" 
+             class="projectImage" 
+             alt="screenshot of project 2"
+             id="project2Image"
+             onmouseover="imageEnlarge('project2Image');"
+             onmouseout="imageReset('project2Image');">
+        <h3>Hibiscus Kitesurfing</h3>
+        <p>
+            Codecadmey project 'Responsive Club Website'.
+        </p>
+        </a>
+    </article>
+    <article>
+        <a href="https://glynatherton.github.io/GlynAtherton.github.io-LythamStAnnesSUP/"
+        target="_blank">
+        <img src="resources/images/LythamStAnnesSUP.png" 
+             class="projectImage" 
+             alt="screenshot of project 3"
+             id="project3Image"
+             onmouseover="imageEnlarge('project3Image');"
+             onmouseout="imageReset('project3Image');">
+        <h3>Lytham St Annes SUP</h3>
+        <p>
+            Codecadmey project 'Company Home Page with Flexbox'.
+        </p>
+        </a>
+    </article>
+</section>
+
+</main>
+
+<!-- Footer -->
+
+<footer>
+     <h4>&copy; Glyn Atherton 2021</h4>
+</footer>
+
+</body>
+<script src="resources/js/script.js"></script>
+</html>

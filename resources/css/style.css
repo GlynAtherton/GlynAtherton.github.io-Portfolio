@@ -1,0 +1,255 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Universal Styles */
+
+html {
+    font-size: 22px;
+}
+
+body {
+    background-color: darkslategrey;
+    color: whitesmoke;
+    /*font-family: Teko, Helvetica, sans-serif;*/
+    font-family: 'Noto Sans', Helvetica, sans-serif;
+    text-align: left;
+    opacity: 0.9;
+}
+
+main {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 90%;
+    /*border: 1px solid black;*/
+}
+
+p {
+    line-height: 1.5rem;
+}
+
+.container {
+    overflow: hidden;
+}
+
+.flex {
+    overflow: hidden;
+    display: flex;
+    /* border: 1px solid white; */
+}
+
+/* Header */
+
+header {
+    height: 140px;
+    background-color: darkslategrey;
+    width: 100%;
+    border-bottom: 1px solid whitesmoke;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+}
+@media only screen and (min-width: 800px) {
+    /* Desktop styles go here */
+    header {
+        height: 70px;
+    }
+}
+
+header h1 {
+    float: left;
+    margin: 0;
+    padding: 10px;
+}
+@media only screen and (min-width: 800px) {
+    /* Desktop styles go here */
+    header h1 {
+        padding-left: 20px;
+    }
+}
+
+header a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+nav {
+    /*border: 1px solid white;*/
+    font-size: 0.8rem;
+    margin-right: 5%;
+    padding-right: 1%;
+    float: right;
+}
+@media only screen and (min-width: 800px) {
+    /* Desktop styles go here */
+    nav {
+        font-size: 0.9rem;
+    }
+}
+
+nav li {
+    list-style-type: none;
+    padding: 10px;
+    display: inline;
+}
+
+nav a {
+    color: whitesmoke;
+}
+
+/* Section */
+
+#about {
+    /*border: 1px solid white;*/
+    position: relative;
+    top: 150px;
+    padding: 10px;
+    border-bottom: 1px solid whitesmoke;
+}
+@media only screen and (max-width: 250px) {
+    /* Very small device styles go here */
+    #about {
+        top: 160px;
+    }
+}
+@media only screen and (min-width: 800px) {
+    /* Desktop styles go here */
+    #about {
+        top: 70px;
+    }
+}
+
+#about img {
+    /*border: 1px solid white;*/
+    margin-top: 10px;
+    padding: 1%;
+    width: 30%;
+    float: right;
+    border: 1px solid whitesmoke;
+}
+@media only screen and (min-width: 800px) {
+    /* Desktop styles go here */
+    #about img {
+        width: 20%;
+    }
+}
+
+#about article {
+    /*border: 1px solid green;*/
+    padding: 1%;
+    width: 56%;
+    float: left;
+}
+@media only screen and (min-width: 800px) {
+    /* Desktop styles go here */
+    #about article {
+        width: 66%;
+    }
+}
+
+#skills {
+    margin-top: 140px;
+    padding: 10px;
+    border-bottom: 1px solid whitesmoke;
+}
+@media only screen and (min-width: 800px) {
+    /* Desktop styles go here */
+    #skills {
+        margin-top: 60px;
+    }
+}
+
+#skills-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+  
+#skills-container > * {
+    font-size: 2em;
+    width: 2em;
+    margin-top: 20px;
+}
+
+#projects {
+    margin-top: 40px;
+}
+@media only screen and (min-width: 800px) {
+    /* Desktop styles go here */
+    #projects {
+        margin-top: 20px;
+    }
+}
+
+#projectsList {
+    /*border: 1px solid yellow;*/
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+#projectsList article {
+    /*border: 1px solid purple;*/
+    padding: 1%;
+    border: 1px solid whitesmoke;
+}
+
+#projectsList img, h3 {
+    /*border: 1px solid blue;*/
+    padding: 10px;
+    margin: 0;
+    float: left;
+}
+
+#projectsList p {
+    /*border: 1px solid blue;*/
+    margin: 0;
+    width: 40%;
+    float: right;
+}
+
+#projectsList a, #contact a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.projectImage {
+    height: auto;
+    width: 30%;
+}
+
+#contact {
+    position: relative;
+    top: 150px;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+@media only screen and (max-width: 250px) {
+    /* Very small device styles go here */
+    #contact {
+        top: 160px;
+    }
+}
+@media only screen and (min-width: 800px) {
+    /* Desktop styles go here */
+    #contact {
+        top: 70px;
+    }
+}
+
+.icon {
+    font-size: 2em;
+    padding: 15px;
+}
+
+/* Footer */
+
+footer {
+    padding: 10px 10px 30px 20px;
+    width: 100%;
+    height: 50px;
+    text-align: left;
+    border-top: 1px solid whitesmoke;
+}
